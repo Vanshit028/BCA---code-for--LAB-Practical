@@ -10,7 +10,7 @@ scanf("%d",&num);
 for (i = 1; i <= num ; i++)
 {
     factorial *= i;
-}----------------
+}
 printf("%d",factorial);
 getch();
 }
