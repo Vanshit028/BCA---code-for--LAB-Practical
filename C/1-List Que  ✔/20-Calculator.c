@@ -7,12 +7,13 @@ void main(){
 int num1,num2;
 char operator;
 clrscr();
-// Why 2nd scanf can't be excuted
-// scanf("%d %d %c",&num1,&num2,&operator);
+
 printf("Enter 2 Number ");
 scanf("%d %d",&num1,&num2);
+
+fflush(stdin);
 printf("Enter the operator");
-scanf(" %c",&operator);
+scanf("%c",&operator);
 
 switch (operator)
 {

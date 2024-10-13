@@ -6,7 +6,7 @@ void main(){
 
 int month_num;
 clrscr();
-printf("Enter the Day Number from 1 to 12");
+printf("Enter the Month Number from 1 to 12");
 scanf("%d",&month_num);
 
 switch(month_num){

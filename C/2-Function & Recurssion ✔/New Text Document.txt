@@ -1,0 +1,10 @@
+1- WAP to read Nos until 0 is entered & sum them
+2- WAP to factorial - function & recurssion
+3- WAP to cal HCF - function & recurssion
+4- Swap 2 no. by call by address
+5- WAP to search an element in an array - Linear Search		- arr
+6- WAP to sort numbers in ascending - Selection 		-  arr
+
+
+Extra
+7- WAP to sort numbers in descending order - Selection
