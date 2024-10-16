@@ -1,16 +1,22 @@
+// Delete Last Element in the Array
 #include<stdio.h>
 #include<conio.h>
 
 void main(){
 
-int arr[100],range,i,j,delete_position;
+int arr[100],range,i,j;
 clrscr();
-printf("Enter the range of numbers");
+printf("Enter the range of numbers ");
 scanf("%d",&range);
 
-printf("Deleted item is %d",arr[range-1]);
+for(i=0;i<range;i++){
+    printf("Enter the number ");
+    scanf("%d",&arr[i]);
+}
 
-printf("Array after deletion/n")
+printf("Deleted item is %d\n",arr[range-1]);
+
+printf("Array after deletion of last element\n");
 for(i=0;i < (range-1);i++){
     printf("%d ",arr[i]);
 }

@@ -1,5 +1,6 @@
+// Factorial of a number using Recurssion
 #include<stdio.h>
-// #include<conio.h>
+#include<conio.h>
 
 long int factorial_copy(int);
 
@@ -7,7 +8,7 @@ void main(){
 
 int num;
 long int f;
-// clrscr();
+clrscr();
 printf("Enter the Number");
 scanf("%d",&num);
 
@@ -15,7 +16,7 @@ f = factorial_copy(num);
 
 printf("Factorial is %d", f);
 
-// getch();
+getch();
 }
 
 long int factorial_copy(int num){

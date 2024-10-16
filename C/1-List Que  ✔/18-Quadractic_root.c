@@ -18,7 +18,7 @@ root1 = (-num2-sqrt(discriminant))/(2*num1);
 root2 = (-num2+sqrt(discriminant))/(2*num1);
 printf("Roots of quadratic equation are %f & %f",root1,root2);
 }else if(discriminant == 0){
-root1 = root2 = (-num2)/2*num1;
+root1 = root2 = (-num2)/(2*num1);
 printf("Roots of quadratic equation are %f & %f",root1,root2);
 }else{
     printf("Real Roots not possible");

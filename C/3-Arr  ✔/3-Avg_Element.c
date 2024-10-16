@@ -1,3 +1,4 @@
+// Avg Element in the Array
 #include<stdio.h>
 #include<conio.h>
 
@@ -8,10 +9,15 @@ clrscr();
 printf("Enter the range of numbers");
 scanf("%d",&range);
 
-for(i=1;i<range;i++){
+for(i=0;i<range;i++){
+    printf("Enter the number ");
+    scanf("%d",&arr[i]);
+}
+
+for(i=0;i<range;i++){
     sum += arr[i];
 }
-avg = aum/range;
+avg = sum/range;
 
 printf("Average value is %d",avg);
 

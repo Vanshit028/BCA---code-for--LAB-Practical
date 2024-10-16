@@ -1,19 +1,26 @@
+// Delete Kth Element in the Array
 #include<stdio.h>
 #include<conio.h>
 
 void main(){
 
-int arr[100],range,i,j,delete_position;
+int arr[100],range,i,j,delete_pos;
 clrscr();
 printf("Enter the range of numbers");
 scanf("%d",&range);
 
 printf("Enter the delete position");
-scanf("%d",&delete_position);
+scanf("%d",&delete_pos);
 
-printf("Deleted item is %d",arr[delete_position]);
 
-j=delete_position-1;
+for(i=0;i<range;i++){
+    printf("Enter the number ");
+    scanf("%d",&arr[i]);
+}
+
+printf("Deleted item is %d\n",arr[delete_pos-1]);
+
+j=delete_pos-1;
 while(j<range){
     arr[j] = arr[j+1];
     j++;
@@ -21,7 +28,7 @@ while(j<range){
 
 range--;
 
-printf("Array after deletion/n")
+printf("Array after deletion\n");
 for(i=0;i<range;i++){
     printf("%d ",arr[i]);
 }
