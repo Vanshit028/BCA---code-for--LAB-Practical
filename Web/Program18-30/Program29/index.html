@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="display">
+        0
+    </div>
+
+    <button onclick="increment()">Increase</button>
+    <button onclick="decrement()">Decrease</button>
+</body>
+<script>
+    i = 0;
+    function increment() {
+        ++i;
+        document.querySelector(".display").innerHTML = i;
+    }
+
+    function decrement() {
+        --i;
+        document.querySelector(".display").innerHTML = i;
+    }
+</script>
+
+</html>

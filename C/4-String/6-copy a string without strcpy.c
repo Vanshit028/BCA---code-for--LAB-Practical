@@ -1,3 +1,4 @@
+// Program to make a copy of a str 
 #include<stdio.h>
 #include<conio.h>
 

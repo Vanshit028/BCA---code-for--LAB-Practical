@@ -1,9 +1,10 @@
+// Program to print the str in upper case
 #include<stdio.h>
 #include<conio.h>
 
 void main(){
 
-char str1[100],str2[100];
+char str1[100];
 int i;
 clrscr();
 printf("Enter the String");

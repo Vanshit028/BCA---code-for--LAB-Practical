@@ -29,15 +29,14 @@
 1. WAP to factorial - function & recurssion
 1. WAP to cal HCF - function & recurssion
 1. Swap 2 no. by call by address
-1. WAP to search an element in an array - Linear Search		- arr
-1. WAP to sort numbers in ascending - Selection 		-  arr
+
 
 Extra
 1. WAP to sort numbers in descending order - Selection
 
 ## Array
 
-
+1. WAP to Read & write an Array
 1. Max Element
 1. Min Element
 1. Avg Element
@@ -49,6 +48,10 @@ Extra
 1. Insert kth Element
 1. Search a Number in the arr (this is called Linear Search)  	(Optional)
 1. Sort the elements of array in ascending or descending order (this is called Selection Sort)		(Optional)
+
+1. Binary Search  ```New```
+1. Bubble Sort  ```New```
+
 
 ### 2D
 
@@ -63,7 +66,7 @@ Extra
 
 ## String
 
-1. Take a String
+1. WAP to Read & write a String
 1. WAP String using all String Methods
 1. Find the Length of String Without strlen
 1. WAP to Uppercase a String Without strupr
@@ -80,7 +83,7 @@ Extra
 
 ## Structure
 
-1. WAP to make a Structure
+1. WAP to Read & write a Structure
 1. WAP to make a Array of Structure
 1. WAP to make a Array with in Structure
 1. WAP to make a Nested Structure

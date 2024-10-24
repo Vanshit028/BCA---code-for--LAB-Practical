@@ -1,0 +1,94 @@
+## Que of List of 20 Program
+
+Factorial 
+Reverse
+Sum of Digits
+Check Prime No.
+Palindrome
+Check Even or Odd No.
+Armstrong
+Print Prime Factors of a number
+Print Table
+Fibonacci Series + Using Function (Optional)
+HCF of 2 Number + Using Function + Recursion
+LCM of 2 Number
+Check whether entered letter is Vowel or Consonant
+Largest of 3 No.
+Check if year is Leap or not
+Print Days Name
+Print Month Name
+Print Quadratic Roots on entering Coffecient of eq
+Swap 2 No.
+Simulate Calculator using switch statement
+
+
+## Function & Recurssion
+
+
+WAP to read Nos until 0 is entered & sum them
+WAP to factorial - function & recurssion
+WAP to cal HCF - function & recurssion
+Swap 2 no. by call by address
+
+
+Extra
+WAP to sort numbers in descending order - Selection
+
+## Array
+
+WAP to Read & write an Array
+Max Element
+Min Element
+Avg Element
+Delete Last Element
+Delete Beginning Element
+Delete kth Element
+Insert Last Element
+Insert Beginning Element
+Insert kth Element
+Search a Number in the arr (this is called Linear Search)  	(Optional)
+Sort the elements of array in ascending or descending order (this is called Selection Sort)		(Optional)
+
+Binary Search  ```New```
+Bubble Sort  ```New```
+
+
+### 2D
+
+Read & Print
+Add 2 Matrix
+Mul 2 Matrix
+Cal Trace of a Matrix
+Cal Largest Element of a Matrix
+Cal Smallest Element of a Matrix
+Cal Largest Element of the Matrix Row
+Cal Largest Element of the Matrix Col
+
+## String
+
+WAP to Read & write a String
+WAP String using all String Methods
+Find the Length of String Without strlen
+WAP to Uppercase a String Without strupr
+WAP to Lowercase a String Without strlwr
+WAP to Copy of String Without strcpy
+WAP to Reverce of String Without strrev
+WAP to Concatenate 2 String Without strcat
+Palindrome for string
+WAP to count the charactors in a string
+WAP to to count words, character, paragraph in a string.
+WAP to count no. of Vowels in a string
+WAP to read & Print the names of Students 
+WAP to read & Print the names of Students in alphabatically manner.
+
+## Structure
+
+WAP to Read & write a Structure
+WAP to make a Array of Structure
+WAP to make a Array with in Structure
+WAP to make a Nested Structure
+WAP to make a Passing to a function
+WAP to make a Returned structure for a function
+WAP to make a Structure & Pointer
+WAP to make a Structure to print Merit Wise list of student
+WAP to make a union of students data.

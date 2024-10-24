@@ -1,9 +1,10 @@
+// Program to print the length of str
 #include<stdio.h>
 #include<conio.h>
 
 void main(){
 
-char str1[100],str2[100];
+char str1[100];
 int length;
 clrscr();
 printf("Enter the String");

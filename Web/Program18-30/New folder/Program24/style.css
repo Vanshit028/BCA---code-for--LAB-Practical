@@ -1,0 +1,42 @@
+body {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f0f2f5;
+}
+
+.hero-section {
+    padding: 100px 20px;
+    margin-bottom: 50px;
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+}
+
+.hero-section h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.hero-section p {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.primary-btn {
+    margin-right: 10px;
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.secondary-btn {
+    color: white;
+    background-color: #f7b731;
+}

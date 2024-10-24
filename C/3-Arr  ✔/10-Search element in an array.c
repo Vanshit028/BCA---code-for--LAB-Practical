@@ -1,4 +1,4 @@
-// Array Search
+// Search element in Array (Linear Search)
 #include<stdio.h>
 #include<conio.h>
 

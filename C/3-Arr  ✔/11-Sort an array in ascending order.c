@@ -1,3 +1,4 @@
+// Sort an array elements in ascending order (Selection Sort)
 #include<stdio.h>
 #include<conio.h>
 

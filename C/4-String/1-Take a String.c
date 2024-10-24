@@ -1,14 +1,15 @@
+// Read & Print a String
 #include<stdio.h>
 #include<conio.h>
 
 void main(){
 
-char str1[100],str2[100];
+char str[100];
 int i;
 clrscr();
-printf("Enter the String");
-gets(str1);
+printf("Enter the String ");
+gets(str);
 
-printf("%s",str1);
+printf("Entered String: %s",str);
 getch();
 }
