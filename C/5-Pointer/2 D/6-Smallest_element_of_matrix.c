@@ -4,22 +4,24 @@
 
 void main(){
 
-int a[10][10], row, col,i,j,min;
+int *a, row, col,i,j,min;
 clrscr();
 printf("Enter the order of matrix");
 scanf("%d %d",&row, &col);
+a=(int *)calloc(row,col*sizeof(int));
 
 for (i = 0; i < row; i++){
     for (j = 0; j < col; j++){
-        scanf("%d",&a[i][j]);
+        printf("Enter the number: ");
+	    scanf("%d",((a+i*col)+j));
     }
 }
 
-min=a[0][0];
+min=*a;
 for (i = 0; i < row; i++){
     for (j = 0; j < col; j++){
-        if(min>a[i][j]){
-            min = a[i][j];
+        if(min > *((a+i*col)+j)){
+            min = *((a+i*col)+j);
         }
     }
 }
@@ -27,4 +29,5 @@ for (i = 0; i < row; i++){
 printf("Minimum value of matrix is %d",min);
 
 getch();
+free(a);
 }

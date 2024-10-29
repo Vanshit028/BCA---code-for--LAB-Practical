@@ -1,4 +1,4 @@
-/* BUBBLE SORT */
+/* BUBBLE SORT in Dynamic Array */
 #include<stdio.h>
 #include<conio.h>
 

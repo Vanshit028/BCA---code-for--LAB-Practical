@@ -1,4 +1,4 @@
-// Insert End Element in the Array
+// Insert End Element in the Dynamic Array
 #include<stdio.h>
 #include<conio.h>
 void main(){

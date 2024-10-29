@@ -1,4 +1,4 @@
-// Sort an array elements in ascending order (Selection Sort)
+// Sort an Dynamic Array elements in ascending order (Selection Sort)
 #include<stdio.h>
 #include<conio.h>
 
@@ -18,7 +18,7 @@ for(i=0; i<range; i++){
 for(i=0; i<range-1; i++){
     min = *(arr+i);
     j=i;
-    for(k=i+1; k<n; k++){
+    for(k=i+1; k<range; k++){
         if(min > *(arr+k)){
             min = *(arr+k);
             j = k;
@@ -30,9 +30,9 @@ for(i=0; i<range-1; i++){
     *(arr+j) = temp;
 }
 
-printf("Sorted Array is n");
+printf("Sorted Array is \n");
 for(i=0; i<range; i++){
-    printf("%d,"*(arr+i));
+    printf("%d\t",*(arr+i));
 }
 
 getch();

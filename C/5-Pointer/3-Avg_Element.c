@@ -1,4 +1,4 @@
-// Avg Element in the Array
+// Avg Element in the Dynamic Array
 #include<stdio.h>
 #include<conio.h>
 

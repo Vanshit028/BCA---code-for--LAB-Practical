@@ -1,4 +1,4 @@
-// Delete Last Element in the Array
+// Delete Last Element in the Dynamic Array
 #include<stdio.h>
 #include<conio.h>
 

@@ -1,4 +1,4 @@
-// Min Element in the Array
+// Min Element in the Dynamic Array
 #include<stdio.h>
 #include<conio.h>
 
@@ -15,7 +15,7 @@ for(i=0;i<range;i++){
     scanf("%d",(arr+i));
 }
 
-min=arr[0];
+min= *(arr+0);
 for(i=1;i<range;i++){
     if(min>*(arr+i)){
         min=*(arr+i);

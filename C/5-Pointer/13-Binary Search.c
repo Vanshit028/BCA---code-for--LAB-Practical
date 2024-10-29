@@ -1,4 +1,4 @@
-/* binary search */
+/* binary search in Dynamic Array */
 #include<stdio.h>
 #include<conio.h>
 
@@ -36,7 +36,7 @@ if(beg>end)
     printf("Element not found");
 
 if(*(arr+mid)==item)
-    printf("Element is found at location: %d",mid);
+    printf("Element is found at location: %d",mid+1);
 
 getch();
 }

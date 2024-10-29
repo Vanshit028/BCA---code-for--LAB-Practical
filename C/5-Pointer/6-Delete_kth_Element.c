@@ -1,4 +1,4 @@
-// Delete Kth Element in the Array
+// Delete Kth Element in the Dynamic Array
 #include<stdio.h>
 #include<conio.h>
 
@@ -19,7 +19,7 @@ for(i=0;i<range;i++){
     scanf("%d",(arr+i));
 }
 
-printf("Deleted item is %d\n",(arr+(delete_pos-1)));
+printf("Deleted item is %d\n",*(arr+(delete_pos-1)));
 
 j=delete_pos-1;
 while(j<range){

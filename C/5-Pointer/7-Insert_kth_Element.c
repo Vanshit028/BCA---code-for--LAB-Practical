@@ -1,4 +1,4 @@
-// Insert Kth Element in the Array
+// Insert Kth Element in the Dynamic Array
 #include<stdio.h>
 #include<conio.h>
 
@@ -23,7 +23,7 @@ for(i=0;i<range;i++){
 }
 
 j=range;
-while(j>insert_pos){
+while(j>=insert_pos){
     *(arr+j) = *(arr+j-1);
     j--;
 }

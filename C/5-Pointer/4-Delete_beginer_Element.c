@@ -1,4 +1,4 @@
-// Delete Beginer Element in the Array
+// Delete Beginer Element in the Dynamic Array
 #include<stdio.h>
 #include<conio.h>
 
@@ -15,10 +15,11 @@ for(i=0;i<range;i++){
     scanf("%d",(arr+i));
 }
 
-printf("Deleted item is %d\n",arr[0]);
+printf("Deleted item is %d\n",*arr);
+// arr[0] means *arr
 
 while(j<range){
-    (arr+j) = (arr+j+1);
+    *(arr+j) = *(arr+j+1);
     j++;
 }
 

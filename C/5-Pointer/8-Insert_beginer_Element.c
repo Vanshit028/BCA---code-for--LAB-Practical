@@ -1,4 +1,4 @@
-// Insert Element at the Beginning of Array
+// Insert Element at the Beginning of Dynamic Array
 #include<stdio.h>
 #include<conio.h>
 

@@ -1,6 +1,5 @@
-// Max Element in the Array
+// Max Element in the Dynamic Array
 #include<stdio.h>
-#include<stdlib.h>
 #include<conio.h>
 
 void main(){
@@ -19,7 +18,7 @@ for(i=0;i<range;i++){
 max=*(arr+0);
 for(i=1;i<range;i++){
     if(max<*(arr+i)){
-	max=*(arr+i);
+	    max=*(arr+i);
     }
 }
 
